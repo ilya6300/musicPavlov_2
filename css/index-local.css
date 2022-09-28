@@ -1,0 +1,1015 @@
+@font-face {
+  font-family: "Syne";
+  src: url(/music_Pavlov/fonts/Syne/Syne-VariableFont_wght.ttf);
+  font-style: normal;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* border:1px red solid !important; */
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  /* max-width: 1366px; */
+
+  font-family: "Syne";
+}
+.container {
+  width: 100%;
+  margin: auto;
+  /* border: 1px solid black; */
+  /* overflow: hidden;     */
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 47px;
+  padding: 0 4vw;
+}
+.logo {
+  display: inline-flex;
+  gap: 15px;
+  width: 293px;
+  height: 54px;
+}
+.logo-header {
+  width: 218px;
+  height: 54px;
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 179.3%;
+  letter-spacing: -0.04em;
+  color: rgb(0, 0, 0);
+}
+.nav-header ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 179.3%;
+  letter-spacing: 0.04em;
+}
+#nav-button-1,
+#nav-button-2,
+#nav-button-3 {
+  cursor: pointer;
+}
+.h1 {
+  text-align: center;
+  margin-top: 19vw;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12vw;
+  line-height: 180px;
+  letter-spacing: -0.04em;
+  color: rgba(0, 0, 0, 0.3);
+  mix-blend-mode: darken;
+  opacity: 0.2;
+}
+.container-order {
+  position: relative;
+  margin: auto;
+  margin-top: 120px;
+  max-width: 1300px;
+  max-height: 1300px;
+  /* background: url(/music_Pavlov/img/Two\ 1.png);
+  background-size: cover;
+  width: 67vw;
+  height: 67vw;
+  border-radius: 50%; */
+}
+.container-order-img {
+  width: 100%;
+  border-radius: 50%;
+  position: relative;
+}
+.container-order-text {
+  position: absolute;
+  font-family: "Syne";
+  font-weight: 500;
+  line-height: 179.3%;
+  letter-spacing: -0.04em;
+  margin-left: 30%;
+  margin-top: -59%;
+  color: white;
+  font-size: calc(50px + 3vw);
+}
+.container-order-button {
+  /* width: 29.8vw;
+  height: 9.287vw; */
+  font-size: calc(30px + 2vw);
+  letter-spacing: -0.04em;
+  background: white;
+  border-radius: 35px;
+  position: absolute;
+  margin-top: -40%;
+  margin-left: 31.5%;
+  text-align: center;
+  /* padding: 2.2vw 6.5vw; */
+  padding: 38px 113px;
+  cursor: pointer;
+}
+.container-order-mobile--span {
+  display: none;
+}
+.fone-info-1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 345px;
+  max-width: 1169px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(30px + 12vw);
+  /* font-size: 220px; */
+  /* line-height: 180px; */
+  line-height: 11vw;
+  letter-spacing: -0.04em;
+  color: #000000;
+  mix-blend-mode: darken;
+  opacity: 0.2;
+}
+.container-column {
+  position: relative;
+  width: 100%;
+  height: 960px;
+  margin-top: 35px;
+}
+
+/* .container-column-sphere {
+  position: absolute;
+  top: 4%;
+  left: 24%;
+  max-width: 42vw;
+} */
+
+.container-column-sphere-img--fone {
+  position: relative;
+  left: 0;
+  width: 100vw;
+  height: 960px;
+  overflow: visible;
+}
+.container-column-sphere-img--sphere {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-sphere-container-1 {
+  position: absolute;
+  top: 33%;
+  left: 36%;
+  cursor: pointer;
+}
+.button-sphere-container-2 {
+  position: absolute;
+  top: 43%;
+  left: 60.5%;
+  cursor: pointer;
+}
+.info-srhere-class-1 {
+  position: absolute;
+  top: 38%;
+  left: 30%;
+  width: 19vw;
+  height: 11vw;
+  background: white;
+  border-radius: 7%;
+  text-align: center;
+  /* line-height: 11vw; */
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 25px;
+  padding-top: 4.1vw;
+}
+.info-srhere-class-2 {
+  position: absolute;
+  top: 48%;
+  left: 55%;
+  width: 19vw;
+  height: 11vw;
+  background: white;
+  border-radius: 7%;
+  text-align: center;
+  /* line-height: 11vw; */
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 25px;
+  padding-top: 4.1vw;
+}
+.info-srhere-class-none {
+  display: none;
+}
+.container-time-and-girl {
+  margin-top: 19vw;
+  position: relative;
+}
+.container-time-energy-elips img {
+  position: relative;
+  width: 100%;
+}
+.container-time--girl {
+  position: absolute;
+  top: 0;
+  right: -80px;
+  width: 59vw;
+}
+.container-time-energy-hour {
+  z-index: 12;
+  position: absolute;
+  top: 12vw;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(70px + 26vw);
+  letter-spacing: -0.04em;
+}
+.container-time-energy-text {
+  z-index: 12;
+  position: absolute;
+  top: 45vw;
+  left: 2vw;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(40px + 4vw);
+  letter-spacing: -0.04em;
+}
+.container-3d-sound {
+  display: block;
+  margin: auto;
+  margin-top: 12vw;
+  margin-bottom: 2vw;
+  width: 75%;
+  text-align: center;
+}
+.sound-3d-box-text {
+  font-size: calc(60px + 7vw);
+  height: 23vw;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: calc(20px + 9vw);
+  letter-spacing: -0.04em;
+  background: url(/music_Pavlov/img/pochuvstvovav-zvuk\ 1.png);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sound-3d-box-column-img {
+  margin-left: 20px;
+  width: 60%;
+}
+.container-text-choice {
+  margin-top: 8vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(25px + 6vw);
+  line-height: 9vw;
+  /* line-height: 180px; */
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #000000;
+  mix-blend-mode: darken;
+  opacity: 0.2;
+}
+
+.my-class-slider {
+  margin-top: 5vw;
+  width: 100%;
+  left: 0;
+}
+
+.slider-box img {
+  width: 28vw;
+  min-width: 350px;
+}
+.container-subscription {
+  padding-top: 7%;
+  margin-top: 18vw;
+  width: 100%;
+  height: 692px;
+  background: url(/music_Pavlov/img/Two1.png);
+  background-size: cover;
+}
+.container-subscription-box {
+  margin-top: 25px;
+  margin: auto;
+  width: 870px;
+  height: 515px;
+  background: rgba(92, 186, 180, 0.14);
+  box-shadow: inset 9.23333px -9.23333px 9.23333px rgba(50, 179, 172, 0.286),
+    inset -9.23333px 9.23333px 9.23333px rgba(255, 255, 255, 0.286);
+  backdrop-filter: blur(50.7833px);
+  border-radius: 15px;
+}
+.container-subscription-box-info {
+  padding-top: 65px;
+  margin: auto;
+  width: 478px;
+}
+.container-subscription-box-h3 {
+  font-family: "Syne";
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 179.3%;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  padding-bottom: 25px;
+}
+.subscription-box-input {
+  width: 476px;
+  height: 64px;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 179.3%;
+  /* identical to box height, or 36px */
+  border-radius: 5px;
+  letter-spacing: -0.04em;
+  color: rgba(0, 0, 0, 0.4);
+  padding-left: 25px;
+}
+.subscription-box-input:focus-visible {
+  outline: -webkit-focus-ring-color none;
+}
+.subscription-box-input::placeholder {
+}
+
+.subscription-button {
+  display: block;
+  margin: auto;
+  margin-top: 43px;
+  width: 349px;
+  height: 60px;
+  background: #3cd6cc;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 152%;
+}
+
+.subscription-box-chkbox span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 130%;
+  color: #7e868e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-left: 8px;
+}
+
+.checkbox-box-class {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.checkbox-cls-none {
+  display: none;
+}
+
+.subscription-fake-chkbox {
+  margin-right: 10px;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.363);
+  border-radius: 15%;
+  position: relative;
+  cursor: pointer;
+}
+.subscription-fake-chkbox::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkbox-cls-none:checked + .subscription-fake-chkbox::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(/music_Pavlov/img/approved-1.png) center;
+}
+.subscription-box-text {
+  width: 297px;
+  height: 17px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #7e868e;
+  cursor: pointer;
+}
+.subscription-box-text-condition {
+  text-decoration: underline;
+}
+
+footer {
+  margin: auto;
+  height: 326px;
+  max-width: 1366px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-box-logo {
+  display: inline-flex;
+  gap: 15px;
+}
+.logo-footer {
+  width: 218px;
+  height: 54px;
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 179.3%;
+  letter-spacing: -0.04em;
+  color: rgba(0, 0, 0, 0.7);
+}
+.footer-info {
+  width: 121.13px;
+  height: 45px;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 179.3%;
+  letter-spacing: -0.04em;
+  color: rgba(0, 0, 0, 0.7);
+}
+#form-back-call-container {
+  z-index: 100;
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  background: #000000c4;
+}
+.form-back-call {
+  top: 150px;
+  margin: auto;
+  width: 686px;
+  height: 629px;
+  position: relative;
+  border: 8px solid #034f82;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.form-position {
+  position: relative;
+}
+#form-back-call--close {
+  margin: 59px 71px 80px 597px;
+  cursor: pointer;
+}
+.form-back-call-text {
+  width: 518px;
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 133%;
+  color: #2e363e;
+  margin: auto;
+  margin-bottom: 55px;
+}
+.form-back-call-numver-phone-box {
+  width: 365px;
+  height: 103px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 34px;
+}
+.form-back-call-numver-phone-input {
+  width: 365px;
+  height: 103px;
+  background: #f2f6fa;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 160%;
+  color: #000000;
+  text-align: left;
+  padding-left: 60px;
+}
+.form-back-call-numver-phone-input::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 160%;
+  color: #7e868e;
+  /* padding: 41px 107px 34px 58px; */
+}
+.form-back-call-numver-phone-input:focus-visible {
+  outline: -webkit-focus-ring-color none;
+}
+.form-back-call-numver-phone-placeholder img {
+  position: absolute;
+  left: 34px;
+  top: 43px;
+}
+.form-back-call-submit {
+  width: 365px;
+  height: 89px;
+  background: #3cd6cc;
+  border-radius: 8px;
+  margin: auto;
+}
+.form-back-call-submit button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 152%;
+  color: #2e363e;
+  background: #3cd6cc;
+  margin: 29px 94px;
+  cursor: pointer;
+}
+.mobile {
+  display: none;
+}
+
+/* Мобильная версия */
+
+@media all and (max-width: 500px) {
+  body {
+    /* overflow: hidden; */
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .logo img {
+    height: 28px;
+    width: 51px;
+  }
+  .logo-header {
+    margin-top: -10px;
+  }
+  header {
+    width: 100%;
+    height: 77px;
+    margin-top: 20px;
+    margin-bottom: 49.6px;
+    padding: 0 20px;
+  }
+  #nav-header img {
+    margin-top: 7px;
+    width: 25px;
+    cursor: pointer;
+  }
+  .container-order {
+    background: url(/music_Pavlov/img/group_sphere_mobile.png) no-repeat;
+    background-size: cover;
+    width: 87.785vw;
+    min-width: 300px;
+    height: 110.72vw;
+    min-height: 380px;
+    margin: auto;
+  }
+  .container-order-mobile--span {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 82%;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #ffffff;
+    width: 266px;
+    left: 23.5%;
+  }
+  .container-order-button {
+    position: relative;
+    /* width: 29.8vw;
+  height: 9.287vw; */
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 179.3%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    background: white;
+    border-radius: 35px;
+    margin: 25px auto 0px auto !important;
+    text-align: center;
+    /* padding: 2.2vw 6.5vw; */
+    padding: 5px 51px 6px 51px;
+    cursor: pointer;
+    width: 193px;
+  }
+  .fone-info-1 {
+    max-width: 388px;
+    text-align: center;
+    margin: auto;
+    margin-top: 44px;
+    margin-bottom: 30px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    mix-blend-mode: darken;
+    opacity: 0.2;
+    font-size: 80px;
+  }
+  .container-column {
+    background: url(/music_Pavlov/img/Vector\ 2.png) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 380px;
+    margin: 0;
+  }
+  .container-column-sphere-mobile {
+    background: url(/music_Pavlov/img/sphere_2.png) no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 380px;
+    display: flex;
+    margin: auto;
+  }
+  .button-sphere-container-1 {
+    position: relative;
+    top: 42%;
+    left: 30%;
+    cursor: pointer;
+    /* transform: scale(0.7); */
+  }
+  .button-sphere-container-2 {
+    position: relative;
+    top: 55%;
+    left: 50%;
+    cursor: pointer;
+    /* transform: scale(0.7); */
+  }
+  /* #info-sphere-1 {
+    top: 0;
+    left: 0;
+    margin: 0;
+  } */
+  .container-time-and-girl {
+    margin-top: 30px;
+    margin-bottom: 65px;
+    position: relative;
+  }
+  .container-time-energy-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    /* line-height: 179.3%; */
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+  }
+  .span-12 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    /* line-height: 179.3%; */
+    /* or 143px */
+    letter-spacing: -0.04em;
+    color: #ffffff;
+  }
+  .container-time-energy-text span {
+    display: block;
+  }
+  .container-3d-sound {
+    width: 100%;
+  }
+  .sound-3d-box-text-m {
+    width: 100%;
+    height: 206px;
+    margin: 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 90px;
+    background: url(/music_Pavlov/img/pochuvstvovav-zvuk\ 1.png);
+    background-position: 150px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .sound-3d-box-column-img {
+    margin: 30px 0 0 0;
+    width: 220px;
+  }
+  .container-text-choice-m {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    /* or 140% */
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #000000;
+    mix-blend-mode: darken;
+    opacity: 0.2;
+    margin-top: 60px;
+  }
+  .my-class-slider {
+    margin-top: 70px;
+  }
+  .slider-box img {
+    margin: auto;
+    width: 55vw;
+    min-width: 200px;
+  }
+  .container-subscription {
+    padding-top: 0;
+    margin-top: 50px;
+    width: 100%;
+    max-height: 278px;
+    background: url(/music_Pavlov/img/Two\ 1.png);
+    background-size: cover;
+    display: flex;
+  }
+  .container-subscription-box {
+    margin: auto;
+    width: 68%;
+    height: 80%;
+    background: rgba(92, 186, 180, 0.14);
+    box-shadow: inset 9.23333px -9.23333px 9.23333px rgb(50 179 172 / 29%),
+      inset -9.23333px 9.23333px 9.23333px rgb(255 255 255 / 29%);
+    backdrop-filter: blur(50.7833px);
+    border-radius: 15px;
+  }
+  .container-subscription-box-info {
+    padding-top: 10px;
+    margin: auto;
+    max-width: 237px;
+  }
+  .container-subscription-box-h3 {
+    font-family: "Syne";
+    font-weight: 600;
+    font-style: normal;
+    /* font-size: 18px; */
+    font-size: 4vmin;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #ffffff;
+  }
+  .subscription-box-input {
+    width: 100%;
+    max-height: 35px;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 179.3%;
+    /* or 18px */
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: rgba(0, 0, 0, 0.4);
+    padding-left: 10px;
+    text-align: left;
+  }
+  .subscription-button {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 85%;
+    max-height: 32px;
+    background: #3cd6cc;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 152%;
+    color: #2e363e;
+  }
+  .subscription-box-text {
+    width: 100%;
+    height: 17px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #7e868e;
+    cursor: pointer;
+  }
+  .subscription-fake-chkbox {
+    margin-right: 5px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    border-radius: 15%;
+    position: relative;
+    cursor: pointer;
+  }
+  .checkbox-box-class {
+    margin-top: 15px;
+    text-align: center;
+  }
+  footer {
+    margin: auto;
+    height: 120px;
+    max-width: 388px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-info {
+    width: 121.13px;
+    height: 45px;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 179.3%;
+    letter-spacing: -0.04em;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .footer-box-logo img {
+    margin-top: 28px;
+    width: 33px;
+    height: 16px;
+  }
+  .logo-footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 54px;
+    font-family: "Syne";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 179.3%;
+    letter-spacing: -0.04em;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  /* Интерактив */
+
+  .info-srhere-class-1 {
+    z-index: 10;
+    position: absolute;
+    top: 188px;
+    left: 75px;
+    width: 144px;
+    height: 72px;
+    background: white;
+    border-radius: 7%;
+    text-align: center;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 179.3%;
+    /* or 27px */
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+    padding: 8px 25px;
+  }
+  .button-sphere-container-2 img,
+  .button-sphere-container-1 img {
+    width: 23px;
+  }
+  .info-srhere-class-2 {
+    position: absolute;
+    top: 235px;
+    left: 225px;
+    width: 144px;
+    height: 72px;
+    background: white;
+    border-radius: 7%;
+    text-align: center;
+    /* line-height: 11vw; */
+    font-family: "Syne";
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .form-back-call {
+    top: 150px;
+    margin: auto;
+    width: 100%;
+    height: 463px;
+    position: relative;
+    border: 8px solid #034f82;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  #form-back-call--close {
+    position: absolute;
+    top: -35px;
+    right: -45px;
+    /* margin: 36px 0px 0px 375px; */
+    cursor: pointer;
+  }
+  #form-back-call--close img {
+    width: 12px;
+  }
+  .form-back-call-text {
+    width: 310px;
+    font-size: 20px;
+    margin-top: 89px;
+    margin-bottom: 50px;
+  }
+  #form-back-call-container {
+    width: 100%;
+  }
+  .form-back-call-numver-phone-input {
+    width: 270px;
+    height: 55px;
+  }
+  .form-back-call-numver-phone-placeholder img {
+    left: 75px;
+    top: 21px;
+  }
+  .form-back-call-submit {
+    width: 270px;
+    height: 55px;
+  }
+  .form-back-call-submit button {
+    margin: 16px 69px;
+    font-size: 15px;
+  }
+  .form-back-call-numver-phone-box {
+    margin-bottom: 0px;
+  }
+  #mobile-nav-container {
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: none;
+  }
+  .mobile-nav li {
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 179.3%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin: 38px 0px 0px 20px;
+  }
+  #mobile-nav-close {
+    position: absolute;
+    top: 36px;
+    right: 36px;
+    cursor: pointer;
+  }
+}
+
+@media all and (max-width: 420px) {
+.container-subscription-box {
+width: 90%;
+}
+}
